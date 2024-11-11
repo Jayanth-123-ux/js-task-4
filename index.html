@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div>
+        <h2 id="first">what is dom?</h2>
+        <p class="second">DOM - Document object model
+            it allows us to access the elements and update,change,content,structure 
+            and style of a document.
+        </p>
+    </div>
+    <div id="none">
+        <h2>Second Dom</h2>
+        <p>This is second id</p>
+    </div>
+    <img src="./Screenshot (107) - Copy.png" alt="" width="800px" height="600px">
+    <img src="./Screenshot (108).png" alt="" height="600px" width="800px">
+    <img src="./Screenshot (109).png" alt="" height="600px" width="800px">
+    <Script>
+       let a = document.getElementsByTagName('div')
+       console.log(a)
+       let b = document.getElementById('first')
+       console.log(b)
+       const c = document.getElementsByClassName('second')
+       console.log(c)
+       var d = document.getElementById('none')
+       console.log(d)
+    </Script>
+</body>
+</html>
